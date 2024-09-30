@@ -5,7 +5,11 @@ function CartComp(){
     return(
        <>
         <div className="container">
-            <ul>
+            <h3>Cart:</h3>
+            {cart.length == 0 ?(
+                <h4 className="ms-4">Cart is empty...</h4>
+            ):(
+                <ul>
                 {cart.map((item)=>(
                     <div key={item.id}>
                         <li  className="my-2">
@@ -22,6 +26,8 @@ function CartComp(){
                     </div>
                 ))}
             </ul>
+            )}
+           
        </div>
        </>
     )

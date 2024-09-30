@@ -6,6 +6,7 @@ function ListComp(){
     return(
        <>
        <div className="container">
+        <h3>List:</h3>
             <ul>
                 {list.map((item)=>(
                     <div  key={item.id}>

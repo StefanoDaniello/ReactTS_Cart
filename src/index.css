@@ -1,7 +1,9 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
 ul{
     list-style: none;
 }
-
 .circle{
     border-radius: 50%;
     background-color: blanchedalmond;
