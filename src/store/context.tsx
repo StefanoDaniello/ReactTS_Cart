@@ -41,7 +41,6 @@ const handleIncrese =(id:number, isCart: boolean)=>{
       setList(updatedList)
     }
   }
- 
 }
 
 const handleDecrese =(id:number, isCart: boolean)=>{
