@@ -1,0 +1,13 @@
+ul{
+    list-style: none;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    height: 30px;
+    width: 30px;
+}
+.circle:hover{
+    background-color: rgb(250, 218, 171);
+}
